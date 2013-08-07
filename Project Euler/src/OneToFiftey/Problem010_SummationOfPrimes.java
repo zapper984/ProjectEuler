@@ -48,8 +48,7 @@ class Problem010_SummationOfPrimes {
                 if ( ( newTestNumber % primeTestCycle ) == 0) {
                     primeFail = true; //Stops the cuurnt test to try the next number
                 }
-            }
-            
+            }  
         }
     }
 }
