@@ -7,7 +7,7 @@ public class Problem007_10001stPrime {
         long primeCount = 1, primeTestCycle, newTestNumber = 1;
         boolean primeFail;
         
-        while (primeCount <= 10000) {  //Once we find 10,001 primes we can print the last prime that was generated found
+        while (primeCount <= 10000) {  // Once we find 10,001 primes we can print the last prime that was generated found
             newTestNumber++; // Current number to be checked if it is prime
             primeTestCycle = 1; // Resets the cycle to divide the test numebr
             primeFail = false;// Resets the loop so the next prime can be tested
